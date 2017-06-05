@@ -1,7 +1,5 @@
 package advancedClassDesign;
 
-import javax.smartcardio.Card;
-
 /**
  * 
  * @author chengfeili 
