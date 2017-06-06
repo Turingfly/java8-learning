@@ -1,5 +1,6 @@
 package designPatternsAndPrinciples;
 
+import java.util.List;
 import java.util.function.Predicate;
 
 /**
@@ -44,6 +45,10 @@ class Animal {
 		this.species = species;
 		this.canHop = canHop;
 		this.canSwim = canSwim;
+	}
+
+	public Animal(String species2, int age, List<String> favoriteFoods) {
+		// TODO Auto-generated constructor stub
 	}
 
 	public boolean canHop() {
