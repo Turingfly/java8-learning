@@ -16,27 +16,27 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 
 ## Advanced Class Design
 
-*[Anonymous Inner Class](./Java-8/src/advancedClassDesign/AnonymousInnerClass.java) <br />
-*[Hash Code](./Java-8/src/advancedClassDesign/HashCode.java) <br />
-*[Local Inner Class](./Java-8/src/advancedClassDesign/LocalInnerClass.java) <br />
-*[Member Inner Class](./Java-8/src/advancedClassDesign/MemberInnerClass.java) <br />
-*[Static Nested Class](./Java-8/src/advancedClassDesign/StaticNestedClass.java)
+- [Anonymous Inner Class](./Java-8/src/advancedClassDesign/AnonymousInnerClass.java) <br />
+- [Hash Code](./Java-8/src/advancedClassDesign/HashCode.java) <br />
+- [Local Inner Class](./Java-8/src/advancedClassDesign/LocalInnerClass.java) <br />
+- [Member Inner Class](./Java-8/src/advancedClassDesign/MemberInnerClass.java) <br />
+- [Static Nested Class](./Java-8/src/advancedClassDesign/StaticNestedClass.java)
 
 ## Design Patterns and Principles
 
-*[Builder Pattern](./Java-8/src/designPatternsAndPrinciples/BuilderPattern.java) <br />
-*[Composing Objects](./Java-8/src/designPatternsAndPrinciples/ComposingObjects.java) <br />
-*[Define Functional Interface](./Java-8/src/designPatternsAndPrinciples/DefineFunctionalInterface.java) <br />
-*[Desing Interface](./Java-8/src/designPatternsAndPrinciples/DesingInterface.java) <br />
-*[Extend Interface](./Java-8/src/designPatternsAndPrinciples/ExtendInterface.java) <br />
-*[Factory Pattern](./Java-8/src/designPatternsAndPrinciples/FactoryPattern.java) <br />
-*[Immutable Object](./Java-8/src/designPatternsAndPrinciples/ImmutableObject.java) <br />
-*[Implementing Functional Interfaces With Lambdas](./Java-8/src/designPatternsAndPrinciples/ImplementingFunctionalInterfacesWithLambdas.java) <br />
-*[Implementing Polymorphism](./Java-8/src/designPatternsAndPrinciples/ImplementingPolymorphism.java) <br />
-*[One Object Take Many Different Forms](./Java-8/src/designPatternsAndPrinciples/OneObjectTakeManyDifferentForms.java) <br />
-*[Singleton Pattern1](./Java-8/src/designPatternsAndPrinciples/SingletonPattern1.java) <br />
-*[Singleton Pattern1](./Java-8/src/designPatternsAndPrinciples/SingletonPattern2.java) <br />
-*[Singleton Pattern1](./Java-8/src/designPatternsAndPrinciples/SingletonPattern3.java) <br />
+- [Builder Pattern](./Java-8/src/designPatternsAndPrinciples/BuilderPattern.java) <br />
+- [Composing Objects](./Java-8/src/designPatternsAndPrinciples/ComposingObjects.java) <br />
+- [Define Functional Interface](./Java-8/src/designPatternsAndPrinciples/DefineFunctionalInterface.java) <br />
+- [Desing Interface](./Java-8/src/designPatternsAndPrinciples/DesingInterface.java) <br />
+- [Extend Interface](./Java-8/src/designPatternsAndPrinciples/ExtendInterface.java) <br />
+- [Factory Pattern](./Java-8/src/designPatternsAndPrinciples/FactoryPattern.java) <br />
+- [Immutable Object](./Java-8/src/designPatternsAndPrinciples/ImmutableObject.java) <br />
+- [Implementing Functional Interfaces With Lambdas](./Java-8/src/designPatternsAndPrinciples/ImplementingFunctionalInterfacesWithLambdas.java) <br />
+- [Implementing Polymorphism](./Java-8/src/designPatternsAndPrinciples/ImplementingPolymorphism.java) <br />
+- [One Object Take Many Different Forms](./Java-8/src/designPatternsAndPrinciples/OneObjectTakeManyDifferentForms.java) <br />
+- [Singleton Pattern1](./Java-8/src/designPatternsAndPrinciples/SingletonPattern1.java) <br />
+- [Singleton Pattern1](./Java-8/src/designPatternsAndPrinciples/SingletonPattern2.java) <br />
+- [Singleton Pattern1](./Java-8/src/designPatternsAndPrinciples/SingletonPattern3.java) <br />
 
 ## Generics and Collections
 
