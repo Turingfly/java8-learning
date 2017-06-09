@@ -7,11 +7,11 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 * [Design Patterns and Principles](#design-patterns-and-principles)
 * [Generics and Collections](#generics-and-collections)
 * [Functional Programming](#functional-programming)
-* [Dates, Strings, and Localization](#dates,-strings,-and-localization)
+* [Dates, Strings, and Localization](#dates-strings-and-localization)
 * [Exceptions and Assertions](#exceptions-and-assertions)
 * [Concurrency](#concurrency)
 * [IO](#io)
-* [NIO.2](#nio.2)
+* [NIO.2](#nio2)
 * [JDBC](#jdbc)
 
 ## Advanced Class Design
@@ -40,7 +40,32 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 
 ## Generics and Collections
 
+- [Array and ArrayList](./Java-8/src/genericsAndCollections/ArrayAndArrayList.java) <br />
+- [ComparingMultipleFields](./Java-8/src/genericsAndCollections/ComparingMultipleFields.java) <br />
+- [GenericBound](./Java-8/src/genericsAndCollections/GenericBound.java) <br />
+- [GenericClass](./Java-8/src/genericsAndCollections/GenericClass.java) <br />
+- [GenericInterface](./Java-8/src/genericsAndCollections/GenericInterface.java) <br />
+- [SearchingAndSorting](./Java-8/src/genericsAndCollections/SearchingAndSorting.java) <br />
+- [UsingComparable](./Java-8/src/genericsAndCollections/UsingComparable.java) <br />
+- [UsingComparable1](./Java-8/src/genericsAndCollections/UsingComparable1.java) <br />
+- [UsingComparator](./Java-8/src/genericsAndCollections/UsingComparator.java) <br />
+- [UsingList](./Java-8/src/genericsAndCollections/UsingList.java) <br />
+- [UsingMap](./Java-8/src/genericsAndCollections/UsingMap.java) <br />
+- [UsingQueue](./Java-8/src/genericsAndCollections/UsingQueue.java) <br />
+- [UsingSet](./Java-8/src/genericsAndCollections/UsingSet.java) <br />
+- [WrapperClassesAndAutoboxing](./Java-8/src/genericsAndCollections/WrapperClassesAndAutoboxing.java) <br />
+
 ## Functional Programming
+
+- [BuiltInFunctionalInterfaces](./Java-8/src/functionalProgramming/BuiltInFunctionalInterfaces.java) <br />
+- [ReturningAnOptional](./Java-8/src/functionalProgramming/ReturningAnOptional.java) <br />
+- [StreamCommonIntermediateOprations](./Java-8/src/functionalProgramming/StreamCommonIntermediateOprations.java) <br />
+- [StreamCommonTerminalOperations](./Java-8/src/functionalProgramming/StreamCommonTerminalOperations.java) <br />
+- [StreamSources](./Java-8/src/functionalProgramming/StreamSources.java) <br />
+- [StreamWorkingWithPrimitives](./Java-8/src/functionalProgramming/StreamWorkingWithPrimitives.java) <br />
+- [UsingVariablesInLambdas](./Java-8/src/functionalProgramming/UsingVariablesInLambdas.java) <br />
+- [WorkingWithAdvancedStreamPipelineConcepts](./Java-8/src/functionalProgramming/WorkingWithAdvancedStreamPipelineConcepts.java) <br />
+
 
 ## Dates, Strings, and Localization
 
