@@ -35,8 +35,8 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 - [Implementing Polymorphism](./Java-8/src/designPatternsAndPrinciples/ImplementingPolymorphism.java) <br />
 - [One Object Take Many Different Forms](./Java-8/src/designPatternsAndPrinciples/OneObjectTakeManyDifferentForms.java) <br />
 - [Singleton Pattern1](./Java-8/src/designPatternsAndPrinciples/SingletonPattern1.java) <br />
-- [Singleton Pattern1](./Java-8/src/designPatternsAndPrinciples/SingletonPattern2.java) <br />
-- [Singleton Pattern1](./Java-8/src/designPatternsAndPrinciples/SingletonPattern3.java) <br />
+- [Singleton Pattern2](./Java-8/src/designPatternsAndPrinciples/SingletonPattern2.java) <br />
+- [Singleton Pattern3](./Java-8/src/designPatternsAndPrinciples/SingletonPattern3.java) <br />
 
 ## Generics and Collections
 
