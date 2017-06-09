@@ -69,6 +69,11 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 
 ## Dates, Strings, and Localization
 
+- [Dates and Times](./Java-8/src/datesStringsLocalization/DatesAndTimes.java) <br />
+- [Formatting Dates and Times](./Java-8/src/datesStringsLocalization/FormattingDatesAndTimes.java) <br />
+- [Formatting Numbers](./Java-8/src/datesStringsLocalization/FormattingNumbers.java) <br />
+- [Internationalization and Localization](./Java-8/src/datesStringsLocalization/InternationalizationLocalization.java) <br />
+
 ## Exceptions and Assertions
 
 ## Concurrency
