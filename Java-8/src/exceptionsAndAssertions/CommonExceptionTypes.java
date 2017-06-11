@@ -1,8 +1,5 @@
 package exceptionsAndAssertions;
 
-import java.io.FileNotFoundException;
-import java.text.NumberFormat;
-
 /**
  * 
  * @author chengfeili 
@@ -40,12 +37,28 @@ public class CommonExceptionTypes {
 
 		// IllegalArgumentException
 		throw new IllegalArgumentException("must not be negative");
+		
+		// ArrayStoreException
+		
+		// DateTimeException
+		
+		// MissingResourceException
+		
+		// IllegalStateException
+		
+		// UnsupportedOperationException
 	}
 
 	public void checkedException() {
 		// FileNotFoundException // subclass of IOExcepption
 
 		// IOException;
+		
+		// ParseException  Converting a String to a number
+		
+		// NotSerializableException
+		
+		// SQLException
 	}
 
 	public void errors() {
