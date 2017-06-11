@@ -76,11 +76,15 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 
 ## Exceptions and Assertions
 
+- [Assertions](./Java-8/src/exceptionsAndAssertions/Assertions.java) <br />
 - [Calling Methods that Throw Exceptions](./Java-8/src/exceptionsAndAssertions/CallingMethodsThatThrowExceptions.java) <br />
 - [Catching Various Types of Exceptions](./Java-8/src/exceptionsAndAssertions/CatchingVariousTypesOfExceptions.java) <br />
 - [Common Exception Types](./Java-8/src/exceptionsAndAssertions/CommonExceptionTypes.java) <br />
+- [Creating Custom Exceptions](./Java-8/src/exceptionsAndAssertions/CreatingCustomExceptions.java) <br />
 - [Exception Intro](./Java-8/src/exceptionsAndAssertions/ExceptionIntro.java) <br />
 - [Nested Exception](./Java-8/src/exceptionsAndAssertions/NestedException.java) <br />
+- [Try with Resources](./Java-8/src/exceptionsAndAssertions/TryWithResources.java) <br />
+- [Using Multi-Catch](./Java-8/src/exceptionsAndAssertions/UsingMultiCatch.java) <br />
 
 ## Concurrency
 
