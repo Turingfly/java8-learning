@@ -98,3 +98,5 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 ## NIO.2
 
 ## JDBC
+
+- [Connecting a DataBase](./Java-8/src/jdbc/ConnectingADataBase.java) <br />
