@@ -90,6 +90,11 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 
 ## IO
 
+- [File Class](./Java-8/src/io/FileClass.java) <br />
+- [Iteracting with Users](./Java-8/src/io/IteractingWithUsers.java) <br />
+- [Streams](./Java-8/src/io/Streams.java) <br />
+- [Streams Continue](./Java-8/src/io/StreamsContinue.java) <br />
+
 ## NIO.2
 
 ## JDBC
