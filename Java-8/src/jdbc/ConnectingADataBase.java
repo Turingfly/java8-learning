@@ -108,6 +108,8 @@ public class ConnectingADataBase {
 	}
 
 	// closing a Database
+	/**
+	 * 
 	public void closingDataBase() throws SQLException {
 		String url = " jdbc:derby:zoo";
 		try (Connection conn = (Connection) DriverManager.getConnection(url);
@@ -117,6 +119,7 @@ public class ConnectingADataBase {
 				System.out.println(rs.getString(1));
 		}
 	}
+	 */
 
 	// closing a Database prior to Java 7
 	public void closingDataBase1() throws SQLException {
@@ -135,7 +138,7 @@ public class ConnectingADataBase {
 		{
 			closeResultSet(rs);
 			closeStatement(stmt);
-			closeConnection(conn);
+			// closeConnection(conn);
 		}
 	}
 
@@ -155,6 +158,7 @@ public class ConnectingADataBase {
 		}
 	}
 
+	/**
 	private void closeConnection(Connection conn) {
 		try {
 			if (conn != null)
@@ -162,7 +166,9 @@ public class ConnectingADataBase {
 		} catch (SQLException e) {
 		}
 	}
+	*/
 
+	/**
 	public void dealingWithExceptions() {
 		String url = " jdbc:derby:zoo";
 		try (Connection conn = DriverManager.getConnection(url);
@@ -176,4 +182,5 @@ public class ConnectingADataBase {
 			System.out.println(e.getErrorCode());
 		}
 	}
+	*/
 }
