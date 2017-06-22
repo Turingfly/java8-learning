@@ -97,6 +97,11 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 
 ## NIO.2
 
+- [Creating Paths](./Java-8/src/nio2/CreatingPaths.java) <br />
+- [Interacting with Paths and Files](./Java-8/src/nio2/InteractingWithPathsAndFiles.java) <br />
+- [New Stream Methods](./Java-8/src/nio2/NewStreamMethods.java) <br />
+- [Understanding File Attributes](./Java-8/src/nio2/UnderstandingFileAttributes.java) <br />
+
 ## JDBC
 
 - [Connecting a DataBase](./Java-8/src/jdbc/ConnectingADataBase.java) <br />
