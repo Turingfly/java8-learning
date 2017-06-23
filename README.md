@@ -88,6 +88,9 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 
 ## Concurrency
 
+- [Creating Threads with the ExecutorService](./Java-8/src/concurrency/CreatingThreadsWithTheExecutorService.java) <br />
+- [Introducing Threads](./Java-8/src/concurrency/IntroducingThreads.java) <br />
+
 ## IO
 
 - [File Class](./Java-8/src/io/FileClass.java) <br />
