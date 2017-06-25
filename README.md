@@ -89,7 +89,12 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 ## Concurrency
 
 - [Creating Threads with the ExecutorService](./Java-8/src/concurrency/CreatingThreadsWithTheExecutorService.java) <br />
+- [Identifying Threading Problems](./Java-8/src/concurrency/IdentifyingThreadingProblems.java) <br />
 - [Introducing Threads](./Java-8/src/concurrency/IntroducingThreads.java) <br />
+- [Managing Concurrent Processes](./Java-8/src/concurrency/ManagingConcurrentProcesses.java) <br />
+- [Synchronizing Data Access](./Java-8/src/concurrency/SynchronizingDataAccess.java) <br />
+- [Using Concurrent Collections](./Java-8/src/concurrency/UsingConcurrentCollections.java) <br />
+- [Working with Parallel Streams](./Java-8/src/concurrency/WorkingWithParallelStreams.java) <br />
 
 ## IO
 
