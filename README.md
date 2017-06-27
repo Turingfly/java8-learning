@@ -20,6 +20,7 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 - [Hash Code](./Java-8/src/advancedClassDesign/HashCode.java) <br />
 - [Local Inner Class](./Java-8/src/advancedClassDesign/LocalInnerClass.java) <br />
 - [Member Inner Class](./Java-8/src/advancedClassDesign/MemberInnerClass.java) <br />
+- [Polymorphism](./Java-8/src/advancedClassDesign/Polymorphism.java) <br />
 - [Static Nested Class](./Java-8/src/advancedClassDesign/StaticNestedClass.java)
 
 ## Design Patterns and Principles
