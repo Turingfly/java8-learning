@@ -1,4 +1,5 @@
 # Java8 learning
+![Language](https://img.shields.io/badge/language-Java%20-red.svg) <br />
 Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=654&get_params=p_id:357&p_org_id=1001&lang=US#tabs-2-1)**
 
 ## Table of Contents
