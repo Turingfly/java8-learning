@@ -1,6 +1,9 @@
 package jdbc;
 
-import java.sql.*;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,8 +15,11 @@ import com.sun.corba.se.pept.transport.Connection;
  * Jun 14, 2017 5:30:14 PM
  *
  *         Driver: Knows how to get a connection to the database 
+ *         
  *         Connection: Knows how to communicate with the database 
+ *         
  *         Statement: Knows how to run the SQL 
+ *         
  *         ResultSet: Knows what was returned by a SELECT query
  * 
  *         In real applications, you should use a DataSource rather than
