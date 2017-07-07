@@ -68,7 +68,6 @@ public class FactoryPattern {
 		case "polar bear":
 			return new Fish(10);
 		}
-
 		// Good practice to throw an exception if no matching subclass could be
 		// found
 		throw new UnsupportedOperationException("Unsupported animal: " + animalName);

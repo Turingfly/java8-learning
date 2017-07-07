@@ -19,22 +19,18 @@ interface Run extends Walk {
 }
 
 public class ExtendInterface implements Run {
-
 	@Override
 	public boolean isQuadruped() {
-		// TODO Auto-generated method stub
 		return true;
 	}
 
 	@Override
 	public boolean canHuntWhileRunning() {
-		// TODO Auto-generated method stub
 		return true;
 	}
 
 	@Override
 	public double getMaxSpeed() {
-		// TODO Auto-generated method stub
 		return 100;
 	}
 }

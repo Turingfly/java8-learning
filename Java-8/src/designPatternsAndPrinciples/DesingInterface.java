@@ -23,10 +23,8 @@ interface Fly {
 }
 
 public class DesingInterface implements Fly {
-
 	@Override
 	public int getWingSpan() throws Exception {
-		// TODO Auto-generated method stub
 		return 15;
 	}
 

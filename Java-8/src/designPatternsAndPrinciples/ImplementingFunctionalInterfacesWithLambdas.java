@@ -28,7 +28,7 @@ import java.util.function.Predicate;
  *	a,d -> d.quack()                ==> (a, d) -> d.quack()
  *	Animal a, Duck d -> d.quack()   ==> (Animal a, Duck d) -> d.quack()
  *
- *	a, b - a.startsWith("a")        ==> (a, b) -> a.startsWith("a")
+ *	a, b -> a.startsWith("a")        ==> (a, b) -> a.startsWith("a")
  *
  *	(when one parameter has a data type listed, though, 
  *	all parameters must provide a data type)
@@ -48,7 +48,6 @@ class Animal {
 	}
 
 	public Animal(String species2, int age, List<String> favoriteFoods) {
-		// TODO Auto-generated constructor stub
 	}
 
 	public boolean canHop() {
@@ -64,19 +63,18 @@ class Animal {
 	}
 }
 
+@FunctionalInterface
 interface CheckTrait {
 	public boolean test(Animal a);
 }
 
 public class ImplementingFunctionalInterfacesWithLambdas {
-
 	private static void print(Animal animal, Predicate<Animal> trait) {
 		if (trait.test(animal))
 			System.out.println(animal);
 	}
 
 	public static void main(String[] args) {
-
 		// Java relies on context when  figuring out what lambda expressions mean
 		// a -> a.canHop()    ==>   (Animal a) -> {return a.canHop();}
 		print(new Animal("fish", false, true), a -> a.canHop());

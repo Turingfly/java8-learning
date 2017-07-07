@@ -10,7 +10,6 @@ package designPatternsAndPrinciples;
  */
 // Method 3: Lazy Instantiation. Delay creation of the singleton until the first
 // time the getInstance() method is called:
-
 public class SingletonPattern3 {
 	private static SingletonPattern3 instance;
 

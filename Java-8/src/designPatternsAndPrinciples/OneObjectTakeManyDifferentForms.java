@@ -2,7 +2,8 @@ package designPatternsAndPrinciples;
 
 /**
  * 
- * @author chengfeili Jun 4, 2017 10:52:45 PM
+ * @author chengfeili 
+ * Jun 4, 2017 10:52:45 PM
  * 
  *         If you use a variable to refer to an object, then only the methods or
  *         variables that are part of the variable’s reference type can be
@@ -19,9 +20,7 @@ package designPatternsAndPrinciples;
  *         determines which methods and variables are accessible to the Java
  *         program.
  * 
- * 
  *         --------Casting Object reference--------
- * 
  *         1. Casting an object from a subclass to a superclass doesn’t require
  *         an explicit cast. 
  *         2. Casting an object from a superclass to a
@@ -39,6 +38,7 @@ class Primate {
 	}
 }
 
+@FunctionalInterface
 interface HasTail {
 	public boolean isTailStriped();
 }
@@ -60,8 +60,7 @@ public class OneObjectTakeManyDifferentForms extends Primate implements HasTail 
 
 		Primate primate = lemur;
 		// OneObjectTakeManyDifferentForms lemur2 = primate; // Does not compile
-		// OneObjectTakeManyDifferentForms lemur2 =
-		// OneObjectTakeManyDifferentForms)primate;
+		// OneObjectTakeManyDifferentForms lemur2 = (OneObjectTakeManyDifferentForms)primate;  // explicit cast
 		System.out.println(primate.hasHair()); // true
 
 	}

@@ -2,7 +2,8 @@ package designPatternsAndPrinciples;
 
 /**
  * 
- * @author chengfeili Jun 4, 2017 11:12:31 PM
+ * @author chengfeili 
+ * Jun 4, 2017 11:12:31 PM
  *
  *         In object‐oriented design, we refer to object composition as the
  *         property of constructing a class using references to other classes in

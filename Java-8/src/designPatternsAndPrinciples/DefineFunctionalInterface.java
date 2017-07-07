@@ -2,7 +2,8 @@ package designPatternsAndPrinciples;
 
 /**
  * 
- * @author chengfeili Jun 4, 2017 10:10:08 PM
+ * @author chengfeili 
+ * Jun 4, 2017 10:10:08 PM
  *
  */
 @FunctionalInterface
@@ -15,13 +16,11 @@ interface Run1 extends DefineFunctionalInterface {
 }
 
 // 2. valid, override
-
 interface SprintFaster extends DefineFunctionalInterface {
 	public void sprint(String s);
 }
 
 // 3. valid, neither default and static is abstract
-
 interface Skip extends DefineFunctionalInterface {
 	public default int getHopCount(String s) {
 		return 10;
