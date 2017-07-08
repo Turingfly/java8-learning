@@ -35,9 +35,9 @@ public class UsingComparator implements Comparable<UsingComparator> {
 	public int compareTo(UsingComparator d) {
 		return name.compareTo(d.name);
 	}
-
 	public static void main(String[] args) {
 		Comparator<UsingComparator> byWeight = new Comparator<UsingComparator>() {
+			@Override
 			public int compare(UsingComparator d1, UsingComparator d2) {
 				return d1.getWeight() - d2.getWeight();
 			}

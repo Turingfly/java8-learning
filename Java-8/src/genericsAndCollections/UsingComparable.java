@@ -11,11 +11,9 @@ import java.util.List;
  *
  */
 public class UsingComparable implements Comparable<UsingComparable> {
-
 	private String name;
 
 	public UsingComparable(String name) {
-		// TODO Auto-generated constructor stub
 		this.name = name;
 	}
 
@@ -25,7 +23,6 @@ public class UsingComparable implements Comparable<UsingComparable> {
 
 	@Override
 	public int compareTo(UsingComparable o) {
-		// TODO Auto-generated method stub
 		return name.compareTo(o.name); // call String's compareTo
 	}
 

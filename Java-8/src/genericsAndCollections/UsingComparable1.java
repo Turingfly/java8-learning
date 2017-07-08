@@ -12,7 +12,7 @@ public class UsingComparable1 implements Comparable<UsingComparable1> {
 	private int id;
 
 	public int compareTo(UsingComparable1 a) {
-		return id - a.id;
+		return this.id - a.id;
 	}
 
 	public static void main(String[] args) {

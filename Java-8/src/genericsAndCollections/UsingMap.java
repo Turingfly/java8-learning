@@ -16,7 +16,7 @@ import java.util.TreeMap;
  * V put(K key, V value) 			Adds or replaces key/value pair. Returns previous value or null .
  * V remove(Object key) 			Removes and returns value mapped to key. Returns null if none. 
  * boolean containsKey(Object key) 	Returns whether key is in map.
- * boolean containsValue(Object) 	Returns value is in map.
+ * boolean containsValue(Object) 	Returns whether value is in map.
  * Set<K> keySet() 					Returns set of all keys.
  * Collection<V> values() 			Returns Collection of all values.
  */
