@@ -2,7 +2,8 @@ package genericsAndCollections;
 
 /**
  * 
- * @author chengfeili Jun 7, 2017 5:44:24 PM
+ * @author chengfeili 
+ * Jun 7, 2017 5:44:24 PM
  * 
  *            When you instantiate the class, you tell the compiler what T
  *            should be for that particular instance.

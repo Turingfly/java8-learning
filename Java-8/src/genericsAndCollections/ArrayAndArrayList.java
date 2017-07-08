@@ -20,7 +20,6 @@ public class ArrayAndArrayList {
 		// Changes are reflected in both, since they are backed by the same data.
 		array[0] = "c";
 		// convert a List to an Array
-		
 		String[] array2 = (String[]) list.toArray(); // [c, b]
 		
 		// list.remove(1); throws UnsupportedOperationException

@@ -21,7 +21,7 @@ public class SearchingAndSorting {
 		int[] nums = {6, 9, 1, 8};
 		Arrays.sort(nums); // [1, 6, 8, 9]
 		System.out.println(Arrays.binarySearch(nums, 6)); // 1
-		System.out.println(Arrays.binarySearch(nums, 3)); // -2  ( -1 -1 )
+		System.out.println(Arrays.binarySearch(nums, 3)); // -2  ( -1 -1 = -2)
 	}
 	public void test2() {
 		List<A> list = new ArrayList<>();
@@ -29,6 +29,5 @@ public class SearchingAndSorting {
 		// Collections.sort(list); Does not compile
 		Comparator<A> c = (a, b) -> a.id - b.id;
 		Collections.sort(list, c);
-		
 	}
 }

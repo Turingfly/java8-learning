@@ -63,7 +63,6 @@ public class GenericBound {
 	 * used the keyword extends rather than implements .
 	 */
 	public static long total(List<? extends Number> list) {
-
 		// ArrayList<Number> list = new ArrayList<Integer>(); // DOES NOT
 		// COMPILE
 		long count = 0;

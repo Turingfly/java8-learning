@@ -5,9 +5,11 @@ import java.util.Queue;
 
 /**
  * 
- * @author chengfeili Jun 7, 2017 7:52:08 PM 
+ * @author chengfeili 
+ * Jun 7, 2017 7:52:08 PM 
+ * 
  * 		   LinkedList: In addition to being a
- *         list, it is a double- ended queue. A double-ended queue is different
+ *         list, it is a double-ended queue. A double-ended queue is different
  *         from a regular queue in that you can insert and remove elements from
  *         both the front and back of the queue. The main benefit of a
  *         LinkedList is that it implements both the List and Queue interfaces.
