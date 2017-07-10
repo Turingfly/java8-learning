@@ -19,7 +19,7 @@ interface Gorilla {
 public class UsingVariablesInLambdas {
 	String walk = "walk";
 
-	void everyonePaly(boolean baby) {
+	void everyonePlay(boolean baby) {
 		String approach = "amble";
 		// approach = "run";
 		// instance variable
@@ -41,6 +41,6 @@ public class UsingVariablesInLambdas {
 
 	public static void main(String[] args) {
 		UsingVariablesInLambdas u = new UsingVariablesInLambdas();
-		u.everyonePaly(true);
+		u.everyonePlay(true);
 	}
 }
