@@ -14,7 +14,6 @@ import java.util.stream.Stream;
  *
  */
 public class WorkingWithAdvancedStreamPipelineConcepts {
-
 	public void linkingStreamsToTheUnderlyingData() {
 		List<String> cats = new ArrayList<>();
 		cats.add("Annie");

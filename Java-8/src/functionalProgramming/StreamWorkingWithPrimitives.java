@@ -13,7 +13,6 @@ import java.util.stream.Stream;
  *
  */
 public class StreamWorkingWithPrimitives {
-
 	public void test() {
 		DoubleStream oneValue = DoubleStream.of(3.14);
 		DoubleStream varargs = DoubleStream.of(1.0, 1.1, 1.2);
@@ -33,13 +32,12 @@ public class StreamWorkingWithPrimitives {
 	}
 
 	public void range() {
-		IntStream range = IntStream.range(1, 6);
+		IntStream range = IntStream.range(1, 6); // 1, 2, 3, 4, 5
 		IntSummaryStatistics stats = range.summaryStatistics();
 		if (stats.getCount() == 0)
 			throw new RuntimeException();
-
 		int res = stats.getMax() - stats.getMin();
-		System.out.println(res);
+		System.out.println("range: " + res); // 5 - 1 = 4
 	}
 
 	public static void main(String[] args) {

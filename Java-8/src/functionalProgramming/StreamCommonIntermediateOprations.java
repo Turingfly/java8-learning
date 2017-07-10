@@ -48,7 +48,7 @@ public class StreamCommonIntermediateOprations {
 
 		// peek()
 		Stream<String> stream = Stream.of("black bear", "brown bear", "grizzly");
-		long count = stream.filter(st -> st.startsWith("g")).peek(System.out::println).count();
+		long count = stream.filter(st -> st.startsWith("g")).peek(System.out::println).count(); // grizzly
 		System.out.println(count); // 1
 
 		List<String> list = Arrays.asList("Toby", "Anna", "Leroy", "Alex");
@@ -60,7 +60,7 @@ public class StreamCommonIntermediateOprations {
 		
 		/**
 		 *  1. stream() sends Toby to filter() . filter() sees that the length is good and sends Toby to sorted()
-		 *  . sorted() can’t sort yet because it needs all of the data, so it holds Toby.
+		 *  . sorted() can’t sort yet because it needs all of the data, so it holds Toby.u
 		 *  2. stream() sends Anna to filter() . filter() sees that the length is good and sends Anna to sorted() 
 		 *  . sorted() can’t sort yet because it needs all of the data, so it holds Anna.
 		 *  3. stream() sends Leroy to filter() . filter() sees that the length is not a match, and it takes Leroy out of the assembly line processing.

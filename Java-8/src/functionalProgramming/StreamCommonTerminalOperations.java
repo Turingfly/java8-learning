@@ -22,7 +22,6 @@ import java.util.stream.Stream;
  * 
  */
 public class StreamCommonTerminalOperations {
-
 	public void test() {
 		// count()
 		Stream<String> s = Stream.of("monkey", "gorilla", "bonobo");
