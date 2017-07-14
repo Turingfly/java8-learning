@@ -43,7 +43,7 @@ public class FormattingDatesAndTimes {
 		DateTimeFormatter fm = DateTimeFormatter.ofPattern("MM dd yyyy");
 		LocalDate date1 = LocalDate.parse("01 02 2015", fm);
 		LocalTime time1 = LocalTime.parse("11:22");
-		System.out.println(date1); // 2017–06–09 
+		System.out.println(date1); // 2015–01–02 
 		System.out.println(time1); // 11:22
 	}
 

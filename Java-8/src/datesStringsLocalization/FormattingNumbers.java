@@ -42,8 +42,8 @@ public class FormattingNumbers {
 		String one = "456abc";
 		String two = "-2.5165x10";
 		String three = "x85.3";
-		System.out.println(nf.parse(one));
-		System.out.println(nf.parse(two));
+		System.out.println(nf.parse(one)); // 456
+		System.out.println(nf.parse(two)); // -2.5165
 		// System.out.println(nf.parse(three)); // throws ParseException
 	}
 

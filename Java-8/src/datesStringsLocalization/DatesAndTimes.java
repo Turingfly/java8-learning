@@ -52,6 +52,7 @@ public class DatesAndTimes {
 		System.out.println(dateTime); // 2020-01-18T19:14:30
 	}
 
+	// For Period, you can specify the number of years, months, weeks or days.
 	public void period() {
 		Period annually = Period.ofYears(1);
 		Period quarterly = Period.ofMonths(3);
