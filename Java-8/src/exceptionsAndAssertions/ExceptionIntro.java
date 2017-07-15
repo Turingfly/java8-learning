@@ -13,7 +13,7 @@ package exceptionsAndAssertions;
  *	2. Checked Exception: includes Exception and all subclasses that 
  *	do not extend RuntimeException.
  *	For checked exceptions, Java requires the code either handle them
- *	ore declare them in the method signature.
+ *	or declare them in the method signature.
  *
  *	3. Error 
  */
@@ -50,8 +50,6 @@ public class ExceptionIntro {
 	}
 	
 	private void getUp() {
-		// TODO Auto-generated method stub
-		
 	}
 
 	public void fall1() {

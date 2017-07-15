@@ -10,24 +10,24 @@ import java.nio.file.Path;
  * 
  * @author chengfeili 
  * Jun 11, 2017 11:21:42 AM
- *
- *         Remember that only a try-with-resources statement is permitted to
- *         omit both the catch and finally blocks. A traditional try statement
- *         must have either or both.
+ * 
+ * Remember that only a try-with-resources statement is permitted to omit both
+ * the catch and finally blocks. A traditional try statement must have either or
+ * both.
  */
 public class TryWithResources {
 	/**
 	 * 
-	 * The new try-with-resources statement automatically closes all
-	 * resources opened in the try clause. This feature is also
-	 * known as automatic resource management, because Java
-	 * automatically takes care of the closing.
-	 *             
-	 * The resources created in the try clause are only in scope within the try block. 
+	 * The new try-with-resources statement automatically closes all resources
+	 * opened in the try clause. This feature is also known as automatic
+	 * resource management, because Java automatically takes care of the
+	 * closing.
+	 * 
+	 * The resources created in the try clause are only in scope within the try
+	 * block.
 	 */
 	public void newApproach(Path path1, Path path2) throws IOException {
-		try (BufferedReader in = Files.newBufferedReader(path1); 
-				BufferedWriter out = Files.newBufferedWriter(path2)) {
+		try (BufferedReader in = Files.newBufferedReader(path1); BufferedWriter out = Files.newBufferedWriter(path2)) {
 			out.write(in.readLine());
 		}
 	}
@@ -41,6 +41,7 @@ public class TryWithResources {
  *
  */
 class TurkeyCage implements AutoCloseable {
+	@Override
 	public void close() {
 		System.out.println("Close gate");
 	}
@@ -60,11 +61,13 @@ class TurkeyCage implements AutoCloseable {
  *
  */
 class JammedTurkeyCage implements AutoCloseable {
+	@Override
 	public void close() throws IllegalStateException {
 		throw new IllegalStateException("Cage door does not close");
 	}
-	// print 
-	// caught: turkeys ran off 
+
+	// print
+	// caught: turkeys ran off
 	// Cage door does not close
 	public static void main(String[] args) {
 		try (JammedTurkeyCage t = new JammedTurkeyCage()) {
@@ -79,15 +82,11 @@ class JammedTurkeyCage implements AutoCloseable {
 
 /**
  * 
- * Resources are closed after the try clause ends and before any catch/finally clauses.
- * Resources are closed in the reverse order from which they were
+ * Resources are closed after the try clause ends and before any catch/finally
+ * clauses. Resources are closed in the reverse order from which they were
  * created.
  *
- * Print: 
- * Close: 2 
- * Close: 1 
- * ex 
- * finally
+ * Print: Close: 2 Close: 1 ex finally
  */
 class Auto implements AutoCloseable {
 	int num;
@@ -95,7 +94,7 @@ class Auto implements AutoCloseable {
 	Auto(int num) {
 		this.num = num;
 	}
-
+	@Override
 	public void close() {
 		System.out.println("Close: " + num);
 	}
