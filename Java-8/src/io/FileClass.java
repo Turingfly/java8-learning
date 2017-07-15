@@ -39,5 +39,4 @@ public class FileClass {
 		fc.creat();
 		fc.fileObject();
 	}
-
 }

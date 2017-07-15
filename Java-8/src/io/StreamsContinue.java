@@ -139,7 +139,7 @@ public class StreamsContinue {
  * 
  * The reason that we do not is that there are some classes that we want to
  * instruct the JVM not to serialize. In particular, process-heavy classes such
- * as the Thread class or any of the Stream classes would be diffi cult, often
+ * as the Thread class or any of the Stream classes would be difficult, often
  * impossible, to save to persistent storage, since much of their work involves
  * managing JVM processes or resources in real time.
  *

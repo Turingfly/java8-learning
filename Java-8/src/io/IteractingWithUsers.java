@@ -23,6 +23,10 @@ public class IteractingWithUsers {
 			throw new RuntimeException("Console not available");
 		} else {
 			console.writer().print("How excited are you about your trip today? ");
+		    /**
+		     * Flushes the console and forces any buffered output to be written
+		     * immediately .
+		     */
 			console.flush();
 			String excitementAnswer = console.readLine();
 			String name = console.readLine("Please enter your name: ");
