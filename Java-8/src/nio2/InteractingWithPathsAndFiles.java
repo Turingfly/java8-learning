@@ -11,7 +11,6 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -19,11 +18,12 @@ import java.util.List;
  * @author chengfeili 
  * Jun 20, 2017 9:57:52 PM
  * 
- *         Path Object VS Actual File A Path object is not a file but a
- *         representation of a location with the file system. Most operations
- *         available in the Path and Paths classes can be accomplished
- *         regardless of whether the underlying file that the path object
- *         references actually exists.
+ *         Path Object VS Actual File
+ * 
+ *         A Path object is not a file but a representation of a location with
+ *         the file system. Most operations available in the Path and Paths
+ *         classes can be accomplished regardless of whether the underlying file
+ *         that the path object references actually exists.
  * 
  *         Java is fond of singular names for container classes and plural names
  *         for factory and helper classes. I
