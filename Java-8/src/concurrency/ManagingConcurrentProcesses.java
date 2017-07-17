@@ -19,7 +19,7 @@ public class ManagingConcurrentProcesses {
 	/**
 	 * The CyclicBarrier takes in its constructors a limit value, indicating the
 	 * number of threads to wait for. As each thread nishes, it calls the
-	 * await() method on the cyclic barrier. Once the speci ed number of threads
+	 * await() method on the cyclic barrier. Once the specified number of threads
 	 * have each called await(), the barrier is released and all threads can
 	 * continue.
 	 */

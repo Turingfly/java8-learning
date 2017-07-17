@@ -85,7 +85,7 @@ public class IntroducingThreads {
 	 * java.lang.Runnable, or Runnable for short, is a functional interface that
 	 * takes no arguments and returns no data.
 	 * 
-	 * The Runnable interface is commonly used to defined the work a thread will
+	 * The Runnable interface is commonly used to define the work a thread will
 	 * execute, separate from the main application thread.
 	 * 
 	 * 
