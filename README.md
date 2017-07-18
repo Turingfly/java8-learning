@@ -4,18 +4,18 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 
 ## Table of Contents
 
-* [Advanced Class Design](#advanced-class-design)
-* [Design Patterns and Principles](#design-patterns-and-principles)
-* [Generics and Collections](#generics-and-collections)
-* [Functional Programming](#functional-programming)
-* [Dates, Strings, and Localization](#dates-strings-and-localization)
-* [Exceptions and Assertions](#exceptions-and-assertions)
-* [Concurrency](#concurrency)
-* [IO](#io)
-* [NIO.2](#nio2)
-* [JDBC](#jdbc)
+* **[Advanced Class Design](#advanced-class-design)**
+* **[Design Patterns and Principles](#design-patterns-and-principles)**
+* **[Generics and Collections](#generics-and-collections)**
+* **[Functional Programming](#functional-programming)**
+* **[Dates, Strings, and Localization](#dates-strings-and-localization)**
+* **[Exceptions and Assertions](#exceptions-and-assertions)**
+* **[Concurrency](#concurrency)**
+* **[IO](#io)**
+* **[NIO.2](#nio2)**
+* **[JDBC](#jdbc)**
 
-## Advanced Class Design
+### Advanced Class Design
 
 - [Anonymous Inner Class](./Java-8/src/advancedClassDesign/AnonymousInnerClass.java) <br />
 - [Hash Code](./Java-8/src/advancedClassDesign/HashCode.java) <br />
@@ -24,7 +24,7 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 - [Polymorphism](./Java-8/src/advancedClassDesign/Polymorphism.java) <br />
 - [Static Nested Class](./Java-8/src/advancedClassDesign/StaticNestedClass.java)
 
-## Design Patterns and Principles
+### Design Patterns and Principles
 
 - [Builder Pattern](./Java-8/src/designPatternsAndPrinciples/BuilderPattern.java) <br />
 - [Composing Objects](./Java-8/src/designPatternsAndPrinciples/ComposingObjects.java) <br />
@@ -40,7 +40,7 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 - [Singleton Pattern2](./Java-8/src/designPatternsAndPrinciples/SingletonPattern2.java) <br />
 - [Singleton Pattern3](./Java-8/src/designPatternsAndPrinciples/SingletonPattern3.java) <br />
 
-## Generics and Collections
+### Generics and Collections
 
 - [Array and ArrayList](./Java-8/src/genericsAndCollections/ArrayAndArrayList.java) <br />
 - [Comparing Multiple Fields](./Java-8/src/genericsAndCollections/ComparingMultipleFields.java) <br />
@@ -57,7 +57,7 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 - [Using Set](./Java-8/src/genericsAndCollections/UsingSet.java) <br />
 - [Wrapper Classes and Autoboxing](./Java-8/src/genericsAndCollections/WrapperClassesAndAutoboxing.java) <br />
 
-## Functional Programming
+### Functional Programming
 
 - [Built-in Functional Interfaces](./Java-8/src/functionalProgramming/BuiltInFunctionalInterfaces.java) <br />
 - [Returning an Optional](./Java-8/src/functionalProgramming/ReturningAnOptional.java) <br />
@@ -69,14 +69,14 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 - [Working with Advanced Stream Pipeline Concepts](./Java-8/src/functionalProgramming/WorkingWithAdvancedStreamPipelineConcepts.java) <br />
 
 
-## Dates, Strings, and Localization
+### Dates, Strings, and Localization
 
 - [Dates and Times](./Java-8/src/datesStringsLocalization/DatesAndTimes.java) <br />
 - [Formatting Dates and Times](./Java-8/src/datesStringsLocalization/FormattingDatesAndTimes.java) <br />
 - [Formatting Numbers](./Java-8/src/datesStringsLocalization/FormattingNumbers.java) <br />
 - [Internationalization and Localization](./Java-8/src/datesStringsLocalization/InternationalizationLocalization.java) <br />
 
-## Exceptions and Assertions
+### Exceptions and Assertions
 
 - [Assertions](./Java-8/src/exceptionsAndAssertions/Assertions.java) <br />
 - [Calling Methods that Throw Exceptions](./Java-8/src/exceptionsAndAssertions/CallingMethodsThatThrowExceptions.java) <br />
@@ -88,7 +88,7 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 - [Try with Resources](./Java-8/src/exceptionsAndAssertions/TryWithResources.java) <br />
 - [Using Multi-Catch](./Java-8/src/exceptionsAndAssertions/UsingMultiCatch.java) <br />
 
-## Concurrency
+### Concurrency
 
 - [Creating Threads with the ExecutorService](./Java-8/src/concurrency/CreatingThreadsWithTheExecutorService.java) <br />
 - [Identifying Threading Problems](./Java-8/src/concurrency/IdentifyingThreadingProblems.java) <br />
@@ -98,20 +98,20 @@ Preparation for **[Oracle® Certified Professional Java® SE 8 Programmer II](ht
 - [Using Concurrent Collections](./Java-8/src/concurrency/UsingConcurrentCollections.java) <br />
 - [Working with Parallel Streams](./Java-8/src/concurrency/WorkingWithParallelStreams.java) <br />
 
-## IO
+### IO
 
 - [File Class](./Java-8/src/io/FileClass.java) <br />
 - [Iteracting with Users](./Java-8/src/io/IteractingWithUsers.java) <br />
 - [Streams](./Java-8/src/io/Streams.java) <br />
 - [Streams Continue](./Java-8/src/io/StreamsContinue.java) <br />
 
-## NIO.2
+### NIO.2
 
 - [Creating Paths](./Java-8/src/nio2/CreatingPaths.java) <br />
 - [Interacting with Paths and Files](./Java-8/src/nio2/InteractingWithPathsAndFiles.java) <br />
 - [New Stream Methods](./Java-8/src/nio2/NewStreamMethods.java) <br />
 - [Understanding File Attributes](./Java-8/src/nio2/UnderstandingFileAttributes.java) <br />
 
-## JDBC
+### JDBC
 
 - [Connecting a DataBase](./Java-8/src/jdbc/ConnectingADataBase.java) <br />
